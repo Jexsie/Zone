@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 
 import "./header.scss";
 
-import logo from "../../assets/zlogo.png";
 import banner from "../../assets/banner2.png";
 
 const headerNav = [
@@ -49,7 +48,6 @@ const Header = () => {
     <div ref={headerRef} className="header">
       <div className="header__wrap container">
         <div className="logo">
-          <img src={logo} alt="" />
           <Link to="/">
             <img className="banner" src={banner} alt="" />
           </Link>
